@@ -72,8 +72,8 @@ s_side_val, s_full_val = s_calc()
 print(f"Площадь боковой пов-ти цилиндра - {s_side_val}; Полная площадь цилиндра - {s_full_val}")
 print(f"Площадь боковой пов-ти цилиндра - {round(s_side_val, 2)}; Полная площадь цилиндра - {round(s_full_val, 2)}")"""
 
-print('Аргументы функций')
-print('позиционные параметры')
+print("Аргументы функций")
+print("позиционные параметры")
 
 
 def first_func(var_1, var_2, var_3):
@@ -82,7 +82,7 @@ def first_func(var_1, var_2, var_3):
 
 print(first_func(10, 20, 30))
 
-print('именованные параметры')
+print("именованные параметры")
 
 
 def second_func(var_2, var_1, var_3):
