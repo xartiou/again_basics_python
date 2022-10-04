@@ -9,4 +9,4 @@ with open('task_1.txt', 'w', encoding='utf-8') as text_file:
         if not line:
             break
         text_file.write(line + '\n')
-        # print(line, file=f) # Print в файл
+        # print(line, file=text_file) # Print в файл
