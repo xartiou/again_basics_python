@@ -24,3 +24,28 @@ class Road:
 
 r = Road(100, 6)
 print(r.calculation_asphalt_mass())
+
+"""
+# Вариант решения
+class Road:
+    def __init__(self, length, width):
+        self._length = length
+        self._width = width
+
+    def calc(self):
+        print(f"Масса асфальта - {self._length * self._width * 25 * 5 / 1000} тонн")
+
+
+def main():
+    while True:
+        try:
+            road_1 = Road(int(input("Введите ширину дороги в метрах: ")), int(input("Введите длину дороги в метрах: ")))
+            road_1.calc()
+            break
+        except ValueError:
+            print("Only integer!")
+
+
+if __name__ == "__main__":
+    main()
+"""
